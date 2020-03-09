@@ -6,10 +6,10 @@ namespace CorporateClass
 {
     class Employees
     {
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
-        public string JobTitle { get; private set; }
-        public DateTime StartDate { get; private set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string JobTitle { get; set; }
+        public DateTime StartDate { get; set; }
 
         public Employees(string firstName, string lastName, string jobTitle, DateTime startDate)
         {
